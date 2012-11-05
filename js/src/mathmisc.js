@@ -5,6 +5,6 @@ define([], function() {
 		ZERO: ZERO,
 		iszero: function(n) {
 			return n === 0 || Math.abs(n) < ZERO;
-		},
+		}
 	}
 });
